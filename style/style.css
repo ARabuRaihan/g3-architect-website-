@@ -8,3 +8,80 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* seared style */
+.display-flex{
+  display: flex;
+}
+/* color style */
+/* d1 */
+.text-grey{
+color: #424242;
+}
+/* d2 */
+.text-light-grey{
+  color: #727272;
+}
+.bg-light{
+  background-color: rgba(255, 144, 14, 0.1);
+  width: 100vw;
+}
+
+.primsry-btn{
+  background-color:#FF900E ;
+  color:white ;
+  padding: 20px 25px;
+  font-size:1.5rem;
+  font-weight: 600px;
+}
+
+
+
+/* header style */
+
+/* navbar related style */
+
+.navbar{
+  justify-content: space-between;
+}
+.nav-item{
+  list-style: none;
+  margin: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  width: 500px;
+}
+.navbar,.banner{
+  max-width: 1400px;
+  margin: 0 auto 0 auto;
+}
+.brand{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* style .banner */
+
+.banner-container{
+  width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+  }
+  .banner-image{
+    font-size: 100%;
+  }
+  .banner-title{
+    font-weight: 700px;
+    font-size: 4rem;
+  }
+  .banner-image{
+    width: 100%;
+  }
+
+  /* header responsive */
+  @media screen and (max-width: 756px) {
+    .navbar,.nav-links {
+      flex-direction: column;
+    }
+  }
